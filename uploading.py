@@ -31,7 +31,7 @@ def upload_person(client):
 # If youwant to run this as a standalone script
 if __name__ == "__main__":
 	client = authenticate()
-	image = upload_kitten(client)
+	image = upload_person(client)
 
 	# print("You can find it here: {0}".format(image['link']))
 	# ^useful reference
